@@ -15,3 +15,6 @@
 `git push origin <name of the branch>` - The git push command is used to upload local repository content to a remote repository.
 
 `git pull` - used to fetch and download content from a remote repository and immediately update the local repository to match that content
+
+`git checkout <name of the branch>` - lets you navigate between the branches created by git branch
+After your pull request has been approved we use this command "git checkout <name of the branch>" in gitbash to change branches, we are gonna choose main to stay up to date and we are gonna use git pull command from main branch and after we are gonna get back to our "working branch" which is "development" in this case. 
