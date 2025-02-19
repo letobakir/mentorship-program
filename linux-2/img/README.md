@@ -1,36 +1,37 @@
-# Instalacija Ubuntu-a kao Windows Subsystem for Linux (WSL)
+# Installing Ubuntu as Windows Subsystem for Linux (WSL)
 
-Ovaj vodič opisuje korake za instalaciju i podešavanje Ubuntu-a u okviru Windows Subsystem for Linux (WSL).
+This guide provides steps for installing and setting up Ubuntu within Windows Subsystem for Linux (WSL).
 
-## 1. Omogućavanje WSL funkcionalnosti
+## 1. Enabling WSL functionality
 
-1. Otvori **PowerShell** kao administrator (desni klik na Start dugme > **Windows Terminal (Admin)** ili **PowerShell (Admin)**).
-2. Unesi sledeću komandu i pritisni **Enter**:
+1. Open PowerShell as an administrator (right-click the Start button > Windows Terminal (Admin) or PowerShell (Admin)).
+
+2. Enter the following command and press Enter:
 
    ```powershell
    wsl --install
    ```
 
-3. Sačekaj da se instalacija završi i restartuj računar ako se to zatraži.
+3. Wait for the installation to complete and restart your computer if prompted.
 
-Ako WSL nije dostupan kroz `wsl --install`, možeš ga ručno omogućiti:
+If `wsl --install`, is not available, enable WSL manually::
 
-1. Otvori **Control Panel** > **Programs** > **Turn Windows features on or off**.
-2. Označi sledeće opcije:
+1. Open **Control Panel** > **Programs** > **Turn Windows features on or off**.
+2. Check the following options:
    - **Windows Subsystem for Linux**
    - **Virtual Machine Platform**
-3. Klikni **OK** i restartuj računar.
+3. Click **OK** and restart your computer.
 
-## 2. Instalacija Ubuntu-a
+## 2. Installing Ubuntu
 
-1. Otvori **Microsoft Store**.
-2. Pretraži **Ubuntu**.
-3. Izaberi verziju (preporučuje se **Ubuntu 22.04 LTS**).
-4. Klikni **Get** (ili **Install**) i sačekaj da se instalacija završi.
+1. Open **Microsoft Store**.
+2. Search for **Ubuntu**.
+3. Select a version (Ubuntu 22.04 LTS is recommended).
+4. Click **Get** (ili **Install**) and wait for the installation to complete.
 
-## 3. Pokretanje i početno podešavanje
+## 3. Running and Initial Setup
 
-1. Otvori **PowerShell** ili **Command Prompt** i unesi:
+1. Open **PowerShell** or **Command Prompt** and type in:
 
    ```powershell
    wsl
@@ -42,7 +43,7 @@ Ako WSL nije dostupan kroz `wsl --install`, možeš ga ručno omogućiti:
    ubuntu
    ```
 
-2. Sačekaj da se Ubuntu pokrene prvi put.
-3. Kada se zatraži, unesi korisničko ime i lozinku.
-4. Ubuntu je sada instaliran i spreman za korišćenje.
+2. Wait for Ubuntu to start for the first time.
+3. When prompted, enter a username and password.
+4. Ubuntu is now installed and ready to use.
 
