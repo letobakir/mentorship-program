@@ -5,3 +5,4 @@ There are two directories called:
 
 - ubuntu-installation - you can see step-by-step installation with images.
  
+- tasks - completed tasks with images and detailed explanations. .

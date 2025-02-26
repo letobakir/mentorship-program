@@ -19,3 +19,4 @@
 `git checkout <name of the branch>` - lets you navigate between the branches created by git branch
 After your pull request has been approved we use this command "git checkout <name of the branch>" in gitbash to change branches, we are gonna choose main to stay up to date and we are gonna use git pull command from main branch and after we are gonna get back to our "working branch" which is "development" in this case. 
 
+`git checkout -b <name of the branch>` - this command is used to create a branch.
