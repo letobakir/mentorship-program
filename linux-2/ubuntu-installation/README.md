@@ -11,8 +11,11 @@ This guide provides steps for installing and setting up Ubuntu within Windows Su
    ```powershell
    wsl --install
    ```
+![alt text](./img/slika1.PNG)
 
 3. Wait for the installation to complete and restart your computer if prompted.
+
+![alt text](./img/slika2.PNG)
 
 If `wsl --install`, is not available, enable WSL manually::
 
@@ -22,12 +25,16 @@ If `wsl --install`, is not available, enable WSL manually::
    - **Virtual Machine Platform**
 3. Click **OK** and restart your computer.
 
+![alt text](./img/slika5.png)
+
 ## 2. Installing Ubuntu
 
 1. Open **Microsoft Store**.
 2. Search for **Ubuntu**.
 3. Select a version (Ubuntu 22.04 LTS is recommended).
 4. Click **Get** (ili **Install**) and wait for the installation to complete.
+
+![alt text](./img/slika3.PNG)
 
 ## 3. Running and Initial Setup
 
@@ -47,3 +54,4 @@ If `wsl --install`, is not available, enable WSL manually::
 3. When prompted, enter a username and password.
 4. Ubuntu is now installed and ready to use.
 
+![alt text](./img/slika4.PNG)

@@ -9,11 +9,15 @@
 
 `pwd` - position where we are
 
+`hostname -I` - IP address
+
 `touch <ime fajla>` - creating a file
 
 `mkdir <ime dir>` - creating a dir
 
 `chmod` - adding permissions to the file
+
+`readlink -f <file/dir>` - file/dir path
 
 `rm -rf` - deleting dir 
 
@@ -27,9 +31,13 @@
 
 `sudo` - root user
 
+`chmod -R 640 `.. changes the file permissions recursively for all files and directories`
+
 `sudo su` - always be in root mode
 
 `exit` - exit root mode
+
+`date` - print date
 
 `sudo apt update` - update 
 
@@ -42,6 +50,17 @@
 `cp <name of the file> <new name of the file>` - copy
 
 `cp <name of the file> <path where to copy a file>` - copy a file
+
+`find /path/to/the/directory -type f -exec chmod 640 {} \;`
+
+- `find` - to find files/directories within specifyed directory
+- `-type f` - searching for files
+- `-type d` - searching for directories
+- `-exec` - executing commands on found files
+- `chmod 640` - assigning permissions 6-4-0 to the found files
+- `{}` - represents every discovered file.
+- `\;` indicates the end of the command for each file.
+  
 
 `.bashrc` - When you open a terminal or start a new session in Bash, the ***.bashrc*** file is read and executed. This file is used to set up your environment.
 
