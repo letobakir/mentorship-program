@@ -1,6 +1,6 @@
 # mentorship-program
 
- This is my internship with Ahmed and at the same my fist one. We ll be working on various topics:
+ This is my internship with Ahmed and we ll be working on various topics:
 
   - [x] Github (create account, repository, public key, create branch)
   - [X] Linux (commands, multiple distributions)

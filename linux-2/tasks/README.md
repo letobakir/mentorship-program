@@ -72,3 +72,25 @@ To create a script that automatically assigns 7-5-0 permissions to all scripts w
 
 **6. Create a cron job that will automatically run sudo apt update and sudo apt upgrade every day at 02:00 AM.**
 
+![alt text](task6-slika2.PNG)
+
+To create a cron job that will automatically run sudo apt update and sudo upgrade every day at 02:00 AM, we need a script.
+Create a script and type in these commands `sudo apt update` to update the list of available packages and their versions and `sudo apt upgrade` to actually install newer versions of the packages you have.
+
+![alt text](task6-slika3.PNG)
+
+Save a script and check, if you have permission to execute if don't, use `chmod +x name_of_the_script`. Run a script to see if it s working properly.
+
+![alt text](task6-slika1.PNG)
+
+After you make sure that script works properly, create a  cronjob. 
+To create a cronjob and to schedule a task use `crontab -e` command. To set a script to run at 02:00 AM we need to use following:
+
+`0 2 * * * /path/to/the/script`
+
+`0` - 0 minutes
+
+`2` - 2 o'clock
+
+And the rest are `*` which means it is going to run every day of the month, every month and every day of the week.
+
